@@ -1,0 +1,32 @@
+Comandos git
+
+<Servidor local>
+# Configurar nome
+$ git config --global user.name "nome"
+
+# Configurar e-mail
+$ git config --global user.email "nome"
+
+# Verificar dados
+$ git config user.name
+$ git config user.email
+
+
+# Criar repositório
+- navegar até a pasta e executar o seguinte comando:
+$ git init
+
+# Verificar status
+$ git status
+
+# Adicionar arquivos ou pastas ao stage
+$ git add <nome_arquivo/pasta> (ou . para todos os arquivos)
+
+# Realizar commit
+$ git commit <nome_arquivo/pasta>
+
+
+# Comandos para verificar diferenças
+$ git log
+$ git show
+
