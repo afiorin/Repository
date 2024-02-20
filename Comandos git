@@ -23,10 +23,22 @@ $ git status
 $ git add <nome_arquivo/pasta> (ou . para todos os arquivos)
 
 # Realizar commit
-$ git commit <nome_arquivo/pasta>
+$ git commit <nome_arquivo/pasta> - m "comentário"
 
 
 # Comandos para verificar diferenças
 $ git log
 $ git show
 
+
+- - - - - - - - - - - - - - 
+> Criando repositório remoto no GitHub
+# Criar repositório
+# Gerar token
+
+# no terminal:
+git remote add origin https://github.com/afiorin/<nome_repositório>.git
+git branch -M main
+git push -u origin main
+
+	# entrar com usuário e token
