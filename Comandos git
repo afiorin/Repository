@@ -1,4 +1,5 @@
 Comandos git
+<Link do curso: https://www.udemy.com/course/git-github-o-essencial-para-iniciantes/>
 
 <Servidor local>
 # Configurar nome
@@ -39,6 +40,6 @@ $ git show
 # no terminal:
 git remote add origin https://github.com/afiorin/<nome_repositório>.git
 git branch -M main
-git push -u origin main
+git push -u origin main			# ESTE COMANDO ENVIA O COMMIT PARA O GITHUB
 
 	# entrar com usuário e token
